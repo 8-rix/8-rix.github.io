@@ -1,2 +1,0 @@
-# 8rix.github.io
-
