@@ -1,4 +1,4 @@
-_8rix repository for nanoloopings_
+8rix repository for nanoloopings
 
 *how cool is that site?*
 <br>
