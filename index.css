@@ -68,7 +68,7 @@ body {
 }
 #middle {
     width:100vw;
-    height:155vh;
+    height: 145vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
