@@ -310,12 +310,12 @@ body {
 
     color:#fff;
     width:92vw;
-    padding:5vh 4vw;
+    padding:2px 15px;
     text-align:left;
     position:fixed;
     z-index:1;
     bottom:0;
-    font-size:14px;
+    font-size:12px;
     /* font-weight:bold; */
 }
 #footer a {
