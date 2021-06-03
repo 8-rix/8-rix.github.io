@@ -213,7 +213,7 @@ body {
 .container p {
     font-size:21px;
 }
-.btn_one {
+.btn_gigs {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
     color:#fff;
@@ -225,17 +225,15 @@ body {
     margin:2vh 10px;
     transition:0.4s ease-in-out;
 }
-.btn_one:hover {
+.btn_gigs:hover {
     cursor:pointer;
     color:rgb(255, 50, 50);
     background:#fff;
     padding:8px 60px;
 }
-.btn_two {
+.btn_collabs {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-   
-   
     border:3px solid #fff;
     padding:8px 40px;
     border-radius:80px;
@@ -243,13 +241,13 @@ body {
     margin:2vh 10px;
     transition:0.4s ease-in-out;
 }
-.btn_two:hover {
+.btn_collabs:hover {
     cursor:pointer;
     color:rgb(255, 50, 50);
     background:#fff;
     padding:8px 60px;
 }
-.btn_three {
+.btn_rels {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
     color:#fff;
@@ -261,7 +259,7 @@ body {
     margin:2vh 10px;
     transition:0.4s ease-in-out;
 }
-.btn_three:hover {
+.btn_rels:hover {
     cursor:pointer;
     color:rgb(255, 50, 50);
     background:#fff;
