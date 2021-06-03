@@ -213,7 +213,7 @@ body {
 .container p {
     font-size:21px;
 }
-.btn_gigs {
+.btn_gigs, .btn_collabs, .btn_rels {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
     color:#fff;
@@ -225,46 +225,13 @@ body {
     margin:2vh 10px;
     transition:0.4s ease-in-out;
 }
-.btn_gigs:hover {
+.btn_gigs:hover, .btn_collabs:hover, .btn_rels:hover{
     cursor:pointer;
     color:rgb(255, 50, 50);
     background:#fff;
     padding:8px 60px;
 }
-.btn_collabs {
-    font-size:18px;
-    font-family: 'Josefin Sans', sans-serif;
-    border:3px solid #fff;
-    padding:8px 40px;
-    border-radius:80px;
-    font-weight:bold;
-    margin:2vh 10px;
-    transition:0.4s ease-in-out;
-}
-.btn_collabs:hover {
-    cursor:pointer;
-    color:rgb(255, 50, 50);
-    background:#fff;
-    padding:8px 60px;
-}
-.btn_rels {
-    font-size:18px;
-    font-family: 'Josefin Sans', sans-serif;
-    color:#fff;
-    background:transparent;
-    border:3px solid #fff;
-    padding:8px 40px;
-    border-radius:80px;
-    font-weight:bold;
-    margin:2vh 10px;
-    transition:0.4s ease-in-out;
-}
-.btn_rels:hover {
-    cursor:pointer;
-    color:rgb(255, 50, 50);
-    background:#fff;
-    padding:8px 60px;
-}
+
 .container form input {
     width:46%;
     margin:20px 1%;
