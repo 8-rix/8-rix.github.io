@@ -231,6 +231,18 @@ body {
     background:#fff;
     padding:8px 60px;
 }
+.logo{
+    display: inline-block;
+
+}
+a{
+    text-decoration: none;
+    color :rgb(255, 50, 50);
+}
+a:hover{
+    text-transform: uppercase;
+    border-bottom: 2px solid rgb(255, 50, 50);
+}
 
 .container form input {
     width:46%;
