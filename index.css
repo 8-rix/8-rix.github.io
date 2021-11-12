@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-
+*{
+    scroll-behavior: smooth;
+}
 body {
     padding:0px;
     margin:0px;    
@@ -262,7 +264,8 @@ body {
 /* Composants */
 
 /* boutons */
-.btn_gigs, .btn_collabs, .btn_rels {
+.btn_gigs, .btn_collabs, .btn_rels,
+.btn_one {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
     color:#fff;
@@ -274,7 +277,7 @@ body {
     margin:2vh 10px;
     transition:0.4s ease-in-out;
 }
-.btn_gigs:hover, .btn_collabs:hover, .btn_rels:hover{
+.btn_gigs:hover, .btn_collabs:hover, .btn_rels:hover, .btn_one{
     cursor:pointer;
     color:rgb(255, 50, 50);
     background:#fff;
@@ -283,7 +286,6 @@ body {
 /* logo Makey makey */
 .logo {
     display: inline-block;
-
 }
 
 /* liens */
