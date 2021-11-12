@@ -66,7 +66,7 @@ body {
 /* conteneur central */
 #middle {
     width:100vw;
-    height: 100vh;
+    height: 150vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -376,7 +376,7 @@ a:hover{
 @media (max-width: 800px){ 
    
     #middle {
-     height: 40vh;
+     height: 80vh;
     }
 
     #about {
