@@ -1,165 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>8rix</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Comfortaa:700"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
     <!-- <link rel="contactMail" href="mail.php"> -->
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="loading">
-        <div id="spinner"></div>
+      <div id="spinner"></div>
     </div>
     <div id="particles-js"></div>
     <div id="box">
-        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
-        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
-        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
-        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
-        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
-        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+      <div
+        class="box1 onlywide animated bounceOutLeft"
+        style="animation-delay: 1.7s"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutLeft"
+        style="animation-delay: 1.8s"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutLeft"
+        style="animation-delay: 1.9s"
+      ></div>
+      <div
+        class="box2 animated bounceOutRight"
+        style="animation-delay: 1.9s"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutRight"
+        style="animation-delay: 1.8s"
+      ></div>
+      <div
+        class="box2 onlywide animated bounceOutRight"
+        style="animation-delay: 1.7s"
+      ></div>
     </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
-    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-        <h1>8rix</h1>
-        <h2> Nanoloop/ Train / Bricks</h2>
-        <div id="menu">
-            <a onclick="showabout()">about</a>
-            <a onclick="showwork()">work</a>
-            <a onclick="showcontact()">contact</a>
-        </div>
-        <table>
-            <tr>
-                <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://twitter.com/EighthRikks"
-                        target="_blank" class="social"><i class="fab fa-twitter"></i></a></td>
-                <td class="animated zoomIn" style="animation-delay:2.6s;"><a
-                        href="https://www.instagram.com/8rix_official/" target="_blank" class="social"><i
-                            class="fab fa-instagram"></i></a></td>
-                <td class="animated zoomIn" style="animation-delay:2.2s;"><a
-                        href="https://www.facebook.com/eighth.rikks.5" target="_blank" class="social"><i
-                            class="fab fa-facebook"></i></a></td>
-                <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://8rix.bandcamp.com/"
-                        target="_blank" class="social"><i class="fab fa-bandcamp"></i></a></td>
-                <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://ko-fi.com/8rix_official"
-                        target="_blank" class="social"><i class="fas fa-coffee"></i></a></td>
-                <td class="animated zoomIn" style="animation-delay:2.8s;"><a
-                        href="https://www.youtube.com/channel/UCA7L3df-2izMQuJM79wiBig" target="_blank"
-                        class="social"><i class="fab fa-youtube"></i></a></td>
-                <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://www.twitch.tv/8rix_official
-                    " target="_blank" class="social"><i class="fab fa-twitch"></i></a></td>
-                <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://github.com/8-rix
-                    " target="_blank" class="social"><i class="fab fa-github"></i></a></td>
-            </tr>
-
-        </table>
+    <a
+      id="about"
+      onclick="showabout()"
+      class="animated fadeIn"
+      style="animation-delay: 2.2s"
+      >about</a
+    >
+    <a
+      id="work"
+      onclick="showwork()"
+      class="animated fadeIn"
+      style="animation-delay: 2.2s"
+      >work</a
+    >
+    <a
+      id="contact"
+      onclick="showcontact()"
+      class="animated fadeIn"
+      style="animation-delay: 2.2s"
+      >contact</a
+    >
+    <div id="middle" class="animated slideInDown" style="animation-delay: 2s">
+      <h1>8rix</h1>
+      <h2>Nanoloop/ Train / Bricks</h2>
+      <div id="menu">
+        <a onclick="showabout()">about</a>
+        <a onclick="showwork()">work</a>
+        <a onclick="showcontact()">contact</a>
+      </div>
+      <table>
+        <tr>
+          <td class="animated zoomIn" style="animation-delay: 2.4s">
+            <a
+              href="https://twitter.com/EighthRikks"
+              target="_blank"
+              class="social"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </td>
+          <td class="animated zoomIn" style="animation-delay: 2.6s">
+            <a
+              href="https://www.instagram.com/8rix_official/"
+              target="_blank"
+              class="social"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </td>
+          <td class="animated zoomIn" style="animation-delay: 2.2s">
+            <a
+              href="https://www.facebook.com/eighth.rikks.5"
+              target="_blank"
+              class="social"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </td>
+          <td class="animated zoomIn" style="animation-delay: 2.8s">
+            <a href="https://8rix.bandcamp.com/" target="_blank" class="social"
+              ><i class="fab fa-bandcamp"></i
+            ></a>
+          </td>
+          <td class="animated zoomIn" style="animation-delay: 2.8s">
+            <a
+              href="https://ko-fi.com/8rix_official"
+              target="_blank"
+              class="social"
+              ><i class="fas fa-coffee"></i
+            ></a>
+          </td>
+          <td class="animated zoomIn" style="animation-delay: 2.8s">
+            <a
+              href="https://www.youtube.com/channel/UCA7L3df-2izMQuJM79wiBig"
+              target="_blank"
+              class="social"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </td>
+          <td class="animated zoomIn" style="animation-delay: 2.8s">
+            <a
+              href="https://www.twitch.tv/8rix_official
+                    "
+              target="_blank"
+              class="social"
+              ><i class="fab fa-twitch"></i
+            ></a>
+          </td>
+          <td class="animated zoomIn" style="animation-delay: 2.8s">
+            <a
+              href="https://github.com/8-rix
+                    "
+              target="_blank"
+              class="social"
+              ><i class="fab fa-github"></i
+            ></a>
+          </td>
+        </tr>
+      </table>
     </div>
     <div id="work_container" class="container" align="right">
-        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <section>
-            <h1>Work</h1>
-            <h2>LIVE</h2>
-            <p>
-                When on stage 8rix uses IOS Nanoloop, a Makey Makey board and its custom controller made of Lego bricks,
-                a small mixer, an Air FX, an SP303 sampler, and some other weird stuff.
-            </p>
-            <p>
-                Sur scène 8rix utilise la version mobile de Nanoloop, une carte Makey Makey et son contrôleur sur mesure
-                fait en briques Lego, une mixette, un Air FX, un sampler SP303, et encore d'autres trucs bizarres.
-            </p>
+      <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+      <section>
+        <h1>Work</h1>
+        <h2>LIVE</h2>
+        <p>
+          When on stage 8rix uses IOS Nanoloop, a Makey Makey board and its
+          custom controller made of Lego bricks, a small mixer, an Air FX, an
+          SP303 sampler, and some other weird stuff.
+        </p>
+        <p class="french">
+          Sur scène 8rix utilise la version mobile de Nanoloop, une carte Makey
+          Makey et son contrôleur sur mesure fait en briques Lego, une mixette,
+          un Air FX, un sampler SP303, et encore d'autres trucs bizarres.
+        </p>
 
-            <img src="https://raw.githubusercontent.com/8-rix/8-rix/main/Makey%20Makey%20lego%20controller_1280_720.jpg"
-                alt="makey makey board" width="30%" align=left>
-            <div>
-                <a href="#gigs"><button class="btn_gigs">Concerts</button></a>
-                
-                <button class="btn_collabs">Collaborations</button>
-                <button class="btn_rels">Releases</button>
-            </div>
-            <br>
-            <h2>PARTNERS</h2>
-            <p>
-                He's also part of the Makey Makey affiliate program.
-                <br>
-                Il fait aussi partie du programme de partenariat de Makey Makey.
-            </p>
-            <br>
-            <div class="logo">
-                <a href=" https://makeymakey.com/?ref=062eq">
-                    <img src="https://cdn.shopify.com/s/files/1/0162/8612/t/67/assets/logo.png"
-                        alt="the Makey Makey logo" width="70%" align=right>
-                </a>
-            </div>
-            <br>
-            <h2 id="gigs">CONCERTS</h2>
-            <p>
-                <a href="https://youtu.be/7iUiQbxhChM">20 June 2021 4pm CET on Metazoa Twitch channel</a>
-<!--                <br>-->
-<!--                blalpzrjg zpgj zoigj zmoi -->
-<!--                <br>-->
-<!--                blalpzrjg zpgj zoigj zmoi -->
-<!--                <br>-->
-<!--                blalpzrjg zpgj zoigj zmoi -->
-<!--                <br>-->
-<!--                blalpzrjg zpgj zoigj zmoi -->
-<!--                <br>-->
-<!--                blalpzrjg zpgj zoigj zmoi -->
-<!--                <br>-->
-<!--                blalpzrjg zpgj zoigj zmoi -->
-<!--                <br>-->
-<!--                blalpzrjg zpgj zoigj zmoi -->
-<!--                <br>-->
-<!--                blalpzrjg zpgj zoigj zmoi -->
-<!--                <br>-->
+        <img
+          src="https://raw.githubusercontent.com/8-rix/8-rix/main/Makey%20Makey%20lego%20controller_1280_720.jpg"
+          alt="makey makey board"
+          width="30%"
+          align="left"
+        />
+        <div>
+          <a href="#gigs"><button class="btn_gigs">Concerts</button></a>
 
+          <button class="btn_collabs">Collaborations</button>
+          <button class="btn_rels">Releases</button>
+        </div>
+        <br />
+        <h2>PARTNERS</h2>
+        <p>He's also part of the Makey Makey affiliate program.</p>
+        <p class="french">
+          Il fait aussi partie du programme de partenariat de Makey Makey.
+        </p>
 
-            </p>
-        </section>
-
+        <div class="logo">
+          <a href=" https://makeymakey.com/?ref=062eq">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0162/8612/t/67/assets/logo.png"
+              alt="the Makey Makey logo"
+              width="70%"
+              align="right"
+            />
+          </a>
+        </div>
+        <br />
+        <h2 id="gigs">CONCERTS</h2>
+        <p>
+          <a href="https://youtu.be/7iUiQbxhChM"
+            >20 June 2021 4pm CET on Metazoa Twitch channel</a
+          >
+          <!--                <br>-->
+          <!--                blalpzrjg zpgj zoigj zmoi -->
+          <!--                <br>-->
+          <!--                blalpzrjg zpgj zoigj zmoi -->
+          <!--                <br>-->
+          <!--                blalpzrjg zpgj zoigj zmoi -->
+          <!--                <br>-->
+          <!--                blalpzrjg zpgj zoigj zmoi -->
+          <!--                <br>-->
+          <!--                blalpzrjg zpgj zoigj zmoi -->
+          <!--                <br>-->
+          <!--                blalpzrjg zpgj zoigj zmoi -->
+          <!--                <br>-->
+          <!--                blalpzrjg zpgj zoigj zmoi -->
+          <!--                <br>-->
+          <!--                blalpzrjg zpgj zoigj zmoi -->
+          <!--                <br>-->
+        </p>
+      </section>
     </div>
     <div id="about_container" class="container">
-        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-        <h1>About</h1>
-        <section>
-            <img src="https://media.giphy.com/avatars/8rix/5hs6BRjulH4G/200h.gif" alt="avatar">
-        </section>
-        <section>
-            <!-- <h2>Contexte</h2> -->
-            <p>
-                Adult Fan Of Lego and member of the LUG Brisy, 8rix is an anonymous traveler from Paris who creates
-                chiptune music within, with and for parisian public transports.
-                If the story begins in Paris, it doesn't stop there and is built brick after brick outside the ring
-                road.
-            </p>
-            <br>
-            <p>
-                Adult Fan Of Lego et membre de la LUG Brisy,
-                8rix est un voyageur francilien anonyme qui compose de la musique électronique créée dans, par et pour
-                les transports en commun.
-                Si l’aventure commence à Paris, elle ne s'y arrête pas et se construit brique par brique au delà du
-                périphérique.
-            </p>
-            <br>
-            <div class="logo">
-                <a href="http://brisy.fr/">
-                    <img src="http://brisy.fr/wp-content/uploads/2020/01/cropped-logo-blanc.png" alt="BRISY logo"
-                        width="30%" align=left>
-                </a>
-            </div>
-
-        </section>
-        <!-- <section>
+      <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+      <h1>About</h1>
+      <section>
+        <img
+          src="https://media.giphy.com/avatars/8rix/5hs6BRjulH4G/200h.gif"
+          alt="avatar"
+        />
+      </section>
+      <section>
+        <!-- <h2>Contexte</h2> -->
+        <p>
+          Adult Fan Of Lego and member of the LUG Brisy, 8rix is an anonymous
+          traveler from Paris who creates chiptune music within, with and for
+          parisian public transports. If the story begins in Paris, it doesn't
+          stop there and is built brick after brick outside the ring road.
+        </p>
+        <br />
+        <p class="french">
+          Adult Fan Of Lego et membre de la LUG Brisy, 8rix est un voyageur
+          francilien anonyme qui compose de la musique électronique créée dans,
+          par et pour les transports en commun. Si l’aventure commence à Paris,
+          elle ne s'y arrête pas et se construit brique par brique au delà du
+          périphérique.
+        </p>
+        <br />
+        <div class="logo">
+          <a href="http://brisy.fr/">
+            <img
+              src="http://brisy.fr/wp-content/uploads/2020/01/cropped-logo-blanc.png"
+              alt="BRISY logo"
+              width="30%"
+              align="left"
+            />
+          </a>
+        </div>
+      </section>
+      <!-- <section>
             <h2>skills</h2>
             <p>
                 i do eveything ;)
@@ -167,43 +272,51 @@
         </section> -->
     </div>
     <div id="contact_container" class="container">
-        <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
-        <h1>contact</h1>
-        <section>
-            <!-- <h2>contact me</h2> -->
-            <p>
-                <!-- <form>
+      <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+      <h1>contact</h1>
+      <section>
+        <!-- <h2>contact me</h2> -->
+        <p>
+          <!-- <form>
                 <input type="text" placeholder="name" required>
                 <input type="email" placeholder="email" required><br>
                 <textarea placeholder="your message" required rows="5"></textarea><br>
                 <button class="btn_one">send</button>
             </form> -->
-                For any project, collaboration, concert or interview inquiry : send me a message !
-                <br>
-                <br>
-                Pour toute demande de projet, collaboration, concert ou interview : contactez-moi !
-
-            </p>
-        </section>
-        <section>
-            <button class="btn_one">
-                <a href="mailto:8rix.official@gmail.com" target="_blank" style="color:rgb(255,50,50)">Mail</a>
-            </button>
-        </section>
+          For any project, collaboration, concert or interview inquiry : send me
+          a message !
+        </p>
+        <p class="french">
+          Pour toute demande de projet, collaboration, concert ou interview :
+          contactez-moi !
+        </p>
+      </section>
+      <section>
+        <button class="btn_one">
+          <a
+            href="mailto:8rix.official@gmail.com"
+            target="_blank"
+            style="color: rgb(255, 50, 50)"
+            >Mail</a
+          >
+        </button>
+      </section>
     </div>
     <div id="footer">
-        <p> made on earth by a human
-            <a href="https://imfunniee.github.io" target="_blank">imfunniee</a>
-            <br>
-            customized by another human
-            <a href="https://www.linkedin.com/in/fanny-codecco-grando/" target="_blank">fvnny-code</a>
-        </p>
-
-
+      <p>
+        made on earth by a human
+        <a href="https://imfunniee.github.io" target="_blank">imfunniee</a>
+        <br />
+        customized and maintained by another human
+        <a
+          href="https://www.linkedin.com/in/fanny-codecco-grando/"
+          target="_blank"
+          >fvnny-code</a
+        >
+      </p>
     </div>
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
     <script src="app.js"></script>
-</body>
-
+  </body>
 </html>
