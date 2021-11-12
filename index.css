@@ -78,12 +78,12 @@ body {
     padding-bottom:12vh;
 }
 #middle h1 {
-    /* display: none; */
+    display: none;
     color:rgb(255, 50, 50);
     font-size:70px;
 }
 #middle h2 {
-    margin-top: 25rem;
+    margin-top: 40rem;
 }
 
 /* Rubriques Latérales */
@@ -374,6 +374,10 @@ a:hover{
 /* responsive */
 
 @media (max-width: 800px){ 
+    #middle h2 {
+        margin-top: 27rem;
+    }
+
     #about {
         display:none;
     }
