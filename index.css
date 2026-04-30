@@ -144,7 +144,7 @@ body {
     color:#fff;
     position:fixed;
     right:0;
-    bottom:40vh;
+    bottom:30vh;
     display:flex;
     flex-direction: column;
     justify-content:center;
@@ -153,6 +153,29 @@ body {
     border-radius:0px 0px 100px 100px;
 }
 #work:hover {
+    background:rgba(255,50,50,0.9);
+    cursor:pointer;
+}
+
+#resources {
+    width:10vw;
+    height:10vw;
+    text-align:center;
+    font-size:25px;
+    transform:rotate(90deg);
+    background:transparent;
+    color:#fff;
+    position:fixed;
+    right:0;
+    bottom:50vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    z-index:4;
+    transition:0.4s ease-in-out;
+    border-radius:0px 0px 100px 100px;
+}
+#resources:hover {
     background:rgba(255,50,50,0.9);
     cursor:pointer;
 }
@@ -386,6 +409,9 @@ a:hover{
         display:none;
     }
     #work {
+        display:none;
+    }
+    #resources {
         display:none;
     }
     #footer {
