@@ -17,14 +17,28 @@ function showwork(){
     $("#work_container").addClass("animated slideInRight");
     setTimeout(function(){
         $("#work_container").removeClass("animated slideInRight");
-    },800);
+    },500);
 }
 function closework(){
     $("#work_container").addClass("animated slideOutRight");
     setTimeout(function(){
         $("#work_container").removeClass("animated slideOutRight");
         $("#work_container").css("display","none");
-    },800);
+    },500);
+}
+function showresources(){
+    $("#resources_container").css("display","inherit");
+    $("#resources_container").addClass("animated slideInRight");
+    setTimeout(function(){
+        $("#resources_container").removeClass("animated slideInRight");
+    },900);
+}
+function closeresources(){
+    $("#resources_container").addClass("animated slideOutRight");
+    setTimeout(function(){
+        $("#resources_container").removeClass("animated slideOutRight");
+        $("#resources_container").css("display","none");
+    },900);
 }
 function showcontact(){
     $("#contact_container").css("display","inherit");
@@ -49,5 +63,6 @@ setTimeout(function(){
       $("#about").removeClass("animated fadeIn");
       $("#contact").removeClass("animated fadeIn");
       $("#work").removeClass("animated fadeIn");
+      $("#resources").removeClass("animated fadeIn");
     },1000);
 },1500);
